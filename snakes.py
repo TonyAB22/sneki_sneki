@@ -18,3 +18,5 @@ win = tintinoo
 #for games
 
 whyarewehere = "just to sufffer"
+
+x = 3
