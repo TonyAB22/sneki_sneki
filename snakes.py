@@ -16,3 +16,5 @@ win = tintinoo
 
 >>>>>>> 1578ae50b5750816ac5cf34198d284d17cb7de41
 #for games
+
+whyarewehere = "just to sufffer"
