@@ -15,10 +15,7 @@ win.tracer(0) #turn off screen updates
 # Keyboard Bindings
 win.keypad(True) #enable keypad
 win.listen()
-win.onkeypress(go_up, "w") #bindings for up
-win.onkeypress(go_down, "s") #bindings for down
-win.onkeypress(go_right, "d") #bindings for right
-win.onkeypress(go_left, "a") #bindings for left
+win.onkeypress(go_up, "w", go_down, "s", go_right, "d", go_left, "a") #bindings for up, down, right, left
 
 # Display Score Values
 pen = turtle.Turtle()
@@ -30,7 +27,18 @@ pen.hideturtle() #hide path
 pen.goto (0, 160) #position
 pen.write("Score: 0 High Score: {}".format(high_score), align ="center", font=("Garamond", 21, "bold")) #score display
 score = 0 #default scoring 
-high_score = 0
+high_score = 0 
+
+#Increase the Score
+score = score+5
+if score > high_score: 
+    high_score = score
+
+#Reset Score 
+score = 0
+
+#Update Score
+................"loading"
 
 # Snake Head Values
 head = turtle.Turtle() #snake 
@@ -53,13 +61,11 @@ food.goto(0,100)
 snake = [[0,0], [0,0], [0,0] #input values for snake
 food = [0,0] #input values for food
 
-#Increase the Score
-score = score+5
-if score > high_score: 
-    high_score = score
 
-#Rest Score 
+#First Food Display
+.................."loading"
 
+#Snake Functions 
 
 
 # Misc. Codes Haha
