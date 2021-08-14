@@ -1,3 +1,10 @@
+# Sneki_Sneki
+
+import curses
+import turtle 
+import time 
+import random 
+
 import curses
 from curses. import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
 curses.initscr() #initialize screen
@@ -15,3 +22,7 @@ win = tintinoo
 #initiate values
 key = KEY_RIGHT
 score = 0
+whyarewehere = "just to sufffer"
+HAHAHHAAHA
+
+x = 3
