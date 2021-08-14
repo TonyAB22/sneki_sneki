@@ -26,7 +26,7 @@ score = 0 #default scoring
 
 # Snake Head Values
 head = turtle.Turtle()
-head speed (0) #snake speed
+head.speed (0) #snake speed
 head.shape("square") #snake shape 
 head.color("black") #snake color
 head.penup()
