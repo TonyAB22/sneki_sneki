@@ -1,11 +1,16 @@
-# Sneki_Sneki
+# Sneki_Sneki Game
 
-import curses
-import turtle 
+import turtle
+import curses 
 import time 
 import random 
 
-import curses
+# Initializing Screen
+win = turtle.Screen()
+win.title("Sneki's Game") #screen title
+win.bgcolor(Lavander) #background color
+
+
 from curses. import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
 curses.initscr() #initialize screen
 win = curses.newwin(20, 60, 0, 0) #create new window H=20, W=60
